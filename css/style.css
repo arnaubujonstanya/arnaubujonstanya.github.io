@@ -25,7 +25,7 @@ h2 {
 }
 
 body{
-    background-image: url('../../../images/samples/wp3719617-1980s-wallpapers.jpg');
+    background-image: url('/ArnauBujonsTanya.github.io/images/background/wp3719617-1980s-wallpapers.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -45,7 +45,7 @@ p{
 @media only screen and (max-width:1080px) {
     /* For mobile phones: */
     body{
-        background-image: url('../../../images/samples/2c29f48802ba3ea7776fae639f2b3b48.jpg');
+        background-image: url('/ArnauBujonsTanya.github.io/images/background/2c29f48802ba3ea7776fae639f2b3b48.jpg');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: 100% 100%;
