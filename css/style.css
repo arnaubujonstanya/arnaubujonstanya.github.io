@@ -1,56 +1,166 @@
-h1{
-    font-family: 'Nanum Pen Script';
-    font-weight: normal;
-    font-size: 75px;
-    color: white;
-    text-align: center;
-    text-shadow: 2px 2px 5px black;
-}
-
-h2 {
-    font-family: 'Nanum Pen Script';
-    font-weight: normal;
-    font-size: 50px;
-    color: white;
-    text-align: center;
-    text-shadow: 2px 2px 5px black;
-}
-#logo{
-    margin-right: 10px;
-}
-
-#icon{
-    height: 25%;
-    width: 25%;
-}
-
 body{
-    background-image: url('../images/background/wp3719617-1980s-wallpapers.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
+  background-color: #121212;
+  font-family: 'Roboto', sans-serif;
 }
-p{
-    font-size: 20px;
+a{
+    text-decoration: none;
+}
+#contenidor-principal{
+    background-color: #292929;
+    max-width: 1080px;
+    color: lightgray;
+    border-style: none;
+    border-radius: 15px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 25px;
+}
+h1{
+  font-family: 'Stick', sans-serif;
+}
+header{
+  display: flex;
+}
+#titleContainer {
+    display: flex;
+    flex:1 580px;
     text-align: center;
-    text-shadow: 2px 2px 5px black;
+    font-size: 1em;
+    padding: 25px;
+    justify-content: center;
+    max-width: 1000px;
+    margin-right: 5px;
+    align-items: center;
+}
+#navContainer {
+  display: flex;
+  flex:1 500px;
+  text-align: right;
+  font-size: 1em;
+  padding: 25px;
+  justify-content: center;
+  max-width: 1000px;
+  margin: 10px auto 35px;
+  align-items: center;
+}
+.btn {
+  color: #ffffff;
+  cursor: pointer;
+  display: block;
+  font-size:1em;
+  font-weight: 400;
+  line-height: 45px;
+  margin: 25px;
+  max-width: 160px; 
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%; 
+  
+//   @media(min-width: 400px) {
+//     display: inline-block;
+//     margin-right: 2.5em;
+  
+//     &:nth-of-type(even) {
+//       margin-right: 0;
+//     }
+//   }
+  
+  @media(min-width: 600px) {
+      
+    margin: 0 1em 2em;
+  
+//     &:nth-of-type(even) {
+//       margin-right: 2.5em;
+//     }
+    
+//     &:nth-of-type(5) {
+//       margin-right: 0;
+//     }
+    
+  }
+  
+  &:hover { text-decoration: none; }
+  
+}
+.navButton{
+  font-family: 'Roboto', sans-serif;
+  background-color: #292929;
+  color: gray;
+  border: 0 solid;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+  outline: 1px solid;
+  outline-color: rgba(255, 255, 255, .5);
+  outline-offset: 0px;
+  text-shadow: none;
+  transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+}     
+.navButton:hover {
+  border: 1px solid;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 15px;
+  text-shadow: 1px 1px 2px #427388;
+}
+.navButton:hover{
+    background-color: #424242;
     color: white;
 }
-.footer{
-    position: fixed;
-    bottom: 0px;
-    margin: auto;
-    width: 100%;
+#title{
+    color: white;
+    font-size: 36px;
+    font-family: 'Stick', sans-serif;
 }
-@media only screen and (max-width:1080px) {
-    /* For mobile phones: */
-    body{
-        background-image: url('../images/background/2c29f48802ba3ea7776fae639f2b3b48.jpg');
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: 100% 100%;
-    }
-    .menu, .main, .right {
-        width:100%;
-    }
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1em;
+    padding: 25px;
+    color: white;
+}
+#pfp{
+  margin-right: 25px;
+  width: 125px;
+  height: 125px;
+}
+@media only screen and (max-width: 500px) {
+  #pfp{
+    display: none;
+  }
+}
+.xarxesSocials{
+
+  text-align: right;
+  margin: auto;
+}
+#copyright{
+    margin: auto;
+    text-align: left;
+}
+.container {
+  display: none;
+}
+#dropdownMenuButton{
+  display: none;
+}
+@media only screen and (max-width: 1180px) {
+  .btn {
+    display: none;
+  }
+  #dropdownMenuButton{
+    display: block;
+  }
+}
+@media only screen and (max-width: 905px) {
+  #pfp{
+    margin-right: 25px;
+    margin-top: 45px;
+    width: 125px;
+    height: 125px;
+  }
+  .container {
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 83px;
+  }
 }
