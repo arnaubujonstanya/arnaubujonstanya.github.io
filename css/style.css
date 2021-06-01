@@ -1,10 +1,6 @@
 html{
   overflow: hidden;
 }
-@font-face {
-  font-family: 'Beon';
-  src: url("../fonts/beon.medium.ttf");
-}
 body{
   background-color: transparent;
   font-family: 'Roboto', sans-serif;
@@ -36,7 +32,7 @@ header{
   font-size: 1em;
   padding: 25px;
   justify-content: center;
-  max-width: 1000px;
+  max-width: 1500px;
   margin-right: 5px;
   align-items: center;
 }
@@ -95,9 +91,10 @@ header{
 }
 #titol{
     color: white;
-    font-size: 36px;
-    font-family: 'Beon';
-    margin-left: 40px;
+    font-size: 30px;
+    font-family: 'Major Mono Display', monospace;
+    font-weight: bold;
+    margin-left: 30px;
 }
 footer{
     display: flex;
