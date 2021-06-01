@@ -3,7 +3,7 @@ html{
 }
 @font-face {
   font-family: 'Beon';
-  src: url("");
+  src: url("../fonts/beon.medium.ttf");
 }
 body{
   background-color: transparent;
